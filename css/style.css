@@ -164,4 +164,13 @@ footer{
     .searchbar{
         display: none;
     }
+    
+}
+@media screen and (max-width:350px) {
+    .a_logo a{
+        display: none;
+    }
+    .about ul li{
+        font-size: 15px;
+    }
 }
