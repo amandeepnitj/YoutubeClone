@@ -166,11 +166,20 @@ footer{
     }
     
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:550px) {
     .a_logo a{
         display: none;
     }
     .about ul li{
         font-size: 15px;
+    }
+    .img_heading{
+        font-size: 15px;
+    }
+    .img_author{
+        font-size: 12px;
+    }
+    .img_info{
+        font-size: 12px;
     }
 }
