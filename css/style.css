@@ -198,9 +198,12 @@ footer{
 
 }
 
-@media screen and (max-width:650px) {
-    .mySlides{
-        display: none;
+@media screen and (max-width:550px) {
+    /* .rightslideshow{
+        display: none; */
+        .mySlides{
+            width: 240px;
+        }
     }
 
 }
