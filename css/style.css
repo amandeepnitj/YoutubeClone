@@ -7,14 +7,9 @@ header{
     background-color: #292c2c;
     color: white;
     
+    
 }
-/* .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid blue;
-    width: 20vw;
-} */
+
 .a_logo{
     /* width: 30vw; */
     /* border: 1px solid green; */
@@ -143,11 +138,11 @@ main{
     /* border: 1px solid powderblue; */
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     /* align-content: space-between; */
     /* border: 1px solid grey; */
     /* justify-content: center; */
-    /* align-items: center; */
+    /* align-items:center; */
 }
 .items{
     margin: 10px 10px;
