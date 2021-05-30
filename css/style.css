@@ -200,7 +200,7 @@ footer{
 
 @media screen and (max-width:650px) {
     .mySlides{
-        width: 300px;
+        display: none;
     }
 
 }
