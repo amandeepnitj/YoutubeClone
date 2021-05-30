@@ -124,6 +124,13 @@ main{
     color: white;
     
 }
+.rightslideshow{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid green; */
+    padding: 5px;
+    background-color: rgb(20, 20, 20);
+}
 .right
 {
     /* border: 1px solid powderblue; */
@@ -171,7 +178,7 @@ footer{
         display: none;
     }
     .about ul li{
-        font-size: 15px;
+        font-size: 10px;
     }
     .img_heading{
         font-size: 15px;
@@ -182,4 +189,18 @@ footer{
     .img_info{
         font-size: 12px;
     }
+}
+
+@media screen and (max-width:1066px) {
+        .mySlides{
+            width: 650px;
+        }
+
+}
+
+@media screen and (max-width:650px) {
+    .mySlides{
+        width: 340px;
+    }
+
 }
