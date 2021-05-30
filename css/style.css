@@ -133,11 +133,7 @@ main{
 }
 .mySlides{
     border-radius: 10px 100px / 120px;
-    display: none;
-    animation-name: slideranimate;
-    animation-duration: 1sec;
-    animation-iteration-count: 1;
-    animation-direction: normal;
+    
     width: 900px;
     height: 450px;
 }
@@ -147,8 +143,8 @@ main{
     /* border: 1px solid powderblue; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-between;
+    /* justify-content: space-around; */
+    /* align-content: space-between; */
     /* border: 1px solid grey; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -158,6 +154,7 @@ main{
     /* border: 1px solid green; */
     box-shadow: 2px 2px rgba(169, 179, 179,0.4);
     min-height: 10vh;
+    
 }
 .img_heading{
     font-weight: bolder;
@@ -220,13 +217,7 @@ footer{
             height: 220px;
         }
 }
-@keyframes slideranimate {
-    from{
-        left:-300px;opacity:0
-    }
-    to{
-        left:0px;opacity:1
-    }
-    
-}
+
+
+.slider-animate-left{position:relative;animation:animateleft 0.9s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
